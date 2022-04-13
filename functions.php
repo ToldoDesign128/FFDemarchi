@@ -38,5 +38,3 @@ function my_custom_admin_logo() {
 add_action('wp_before_admin_bar_render', 'my_custom_admin_logo');
 
 ?>
-
-
