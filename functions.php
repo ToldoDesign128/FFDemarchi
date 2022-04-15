@@ -34,7 +34,6 @@ function my_custom_admin_logo() {
         </style>
     ';
 }
-//hook into the administrative header output
 add_action('wp_before_admin_bar_render', 'my_custom_admin_logo');
 
 ?>
